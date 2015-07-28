@@ -10,7 +10,11 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        
+    <!-- Custom -->
+    
+    <!-- the following snippet creates a variable called depth based on the number of depth-levels in the url. This then helps create a link for the posts on the site -->
+        <a class="post-link" href="{% assign depth = page.url | split: '/' %}{% for item in depth %}{{ '../' }}{% endfor %}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
