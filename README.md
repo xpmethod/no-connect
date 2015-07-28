@@ -1,5 +1,5 @@
 **No Connection** is a template for [Jekyll static site generator](http://jekyllrb.com/) that works on
-a local machine, without an html server. Visit us at Columbia's [Group for
+a local machine, without an html server. Our template is based on the standard Jekyll theme. Visit us at Columbia's [Group for
 Experimental Methods in the
 Humanities](http://xpmethod.plaintext.in/minimal-computing/no-connection.html) to learn more about our group.
 
