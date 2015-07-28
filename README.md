@@ -1,7 +1,7 @@
 **No Connect** is a template for [Jekyll static site generator](http://jekyllrb.com/) that works on
 a local machine or a USB key, without an html server. Our template is based on the standard Jekyll theme. Visit us at Columbia's [Group for
 Experimental Methods in the
-Humanities](http://xpmethod.plaintext.in/minimal-computing/no-connection.html) to learn more.
+Humanities](http://xpmethod.plaintext.in/minimal-computing/) to learn more about our group.
 
 ## Motivation
 This theme is part of our effort to investigate minimal computing technologies, and their possible use in humanistic work. Not all forms of scholarship can be shared on the internet, whether the reason is an unfriendly government or copyright regimes. Tapping into the affordances of [Sneakernets](https://en.wikipedia.org/wiki/Sneakernet), is one of the ways we can carve out space for digital work to continue under adverse circumstances. 
