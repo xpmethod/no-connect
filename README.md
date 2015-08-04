@@ -9,7 +9,9 @@ This theme is part of our effort to investigate minimal computing technologies, 
 ## How to use
 This Jekyll theme won't work on Github pages or on your local machine running a server. The _site folder it generates is meant to be used on a USB (or any other folder with a stable base url). To make it work for your USB you must set the baseurl on your _config.yml to reflect the name of your USB. In our case this is `file:///Volumes/no-connect.` Replace `no-connect` in our example with the name of your USB. 
 
-Once you generate the site using `jekyll build`, copy the contents of the `_site` folder into your USB, and you're ready to go. 
+Once you generate the site using `jekyll build`, copy the contents of the `_site` folder into your USB, and you're ready to go. We recommend that you create a README file in your site that would explain to beginners that they need to double-click the index.html to launch the site. Alternatively, you could simply have a copy of it called START-HERE, or some such thing.
+
+To learn more about how to use Jekyll visit [their excellent documentation](http://jekyllrb.com/docs/home/). Although the end result would work on any machine, note that the Jekyll engine itself runs on Macs and Linux. Windows users have a range of options for static site generation, and we encourage you to explore them. 
 
 
 ## Related Resources
